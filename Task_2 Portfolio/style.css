@@ -1,0 +1,316 @@
+*{
+    font-family: 'Quicksand', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+header{
+    background-image: url(images/background\ picture.jpg);
+    min-height: 100vh;
+    width: 100%;
+    background-size: cover;
+    background-position: bottom;
+}
+#navbar ul{
+    margin-top: 15px;
+}
+#navbar ul li{
+    padding: 0 20px
+}
+#navbar ul li a{
+    font-weight: bold;
+    font-size: 18px;
+    color: white;
+}
+#navbar ul li a:hover{
+    color: #f5af35;
+}
+#name{
+    margin-top: 150px;
+    color: white;
+    font-size: 50px;
+}
+#prof{
+    color: white;
+}
+.navbar-light .navbar-toggler-icon {
+    background-image: url("data:image/svg+xml,%3csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 30 30'%3e%3cpath stroke='rgba%2825, 0, 0, 1%29' stroke-linecap='round' stroke-miterlimit='10' stroke-width='2' d='M4 7h22M4 15h22M4 23h22'/%3e%3c/svg%3e");
+    background-color: #f5af35;
+    border-radius: 5px;
+    padding: 20px 20px;
+}
+/* Header end */
+
+/* About */
+#profile-p{
+    background-image: url(images/profile.jpg);
+    width: 350px;
+    height: 350px;
+    background-size: cover;
+}
+#heading{
+    text-align: center;
+    margin-top: 100px;
+    position: relative;
+    line-height: 60px;
+    color: #555;
+    font-weight: bold;
+}
+#heading:after{
+    content: '';
+    background: #f5af35;
+    width: 100px;
+    height: 5px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: 0;
+    left: 50%;
+    transform: translateX(-50%);
+}
+#about-section{
+    width: 60%;
+    padding-top: 30px;
+    padding-left: 40px;
+}
+#about-section .row{
+    margin-top: 30px;
+    width: 120%;
+}
+#about h3{
+    font-size: 20px;
+}
+#about span{
+    font-weight: bold;
+}
+#about #arrow{
+    font-weight: 400;
+    color: #f5af35;
+}
+#about-info{
+    padding: 20px 0px 0 10px;
+}
+/* About end */
+
+/* skills */
+.skill-sec h6{
+    margin-top: 20px;
+}
+.skillbar {
+    width: 100%;
+    background-color: #ddd;
+  }
+  
+  .skills {
+    text-align: right;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    color: black;
+  }
+  
+  .html {width: 95%; background-color: #f5af35;}
+  .css {width: 80%; background-color: #f5af35;}
+  .js {width: 50%; background-color: #f5af35;}
+  .bootstrap {width: 75%; background-color: #f5af35;}
+  .php {width: 45%; background-color: #f5af35;}
+  .laravel {width: 40%; background-color: #f5af35;}
+  .sql {width: 75%; background-color: #f5af35;}
+  .figma {width: 85%; background-color: #f5af35;}
+
+  /* skills end */
+
+/* Resume */
+.resume-item {
+    padding: 0 0 20px 20px;
+    margin-top: -2px;
+    border-left: 2px solid #82909c;
+    position: relative;
+}
+.resume-item::before {
+    content: "";
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    border-radius: 50px;
+    left: -9px;
+    top: 0;
+    background: rgb(245, 245, 245);
+    border: 2px solid #82909c;
+}
+.resume h3{
+    margin-top: 30px;
+    font-weight: bold;
+}
+.resume h4{
+    color: #f5af35;
+}
+.resume .year{
+    margin-top: 13px;
+    padding: 3px 10px;
+    background-color: #eef0f2;
+}
+.resume p{
+    margin-top: 13px;
+}
+#resume .download-btn{
+    margin-top: 20px;
+}
+#resume .download-btn a{
+    text-decoration: none;
+    border: 1px solid ;
+    padding: 8px 10px;
+    border-radius: 5px;
+    background-color: #f5af35;
+    color: white;  
+}
+#resume .download-btn a:hover{
+    transition: 0.3s;
+    opacity: 0.5;
+}
+/* Resume end */
+
+/* Projects */
+#project h2{
+    margin-top: 30px;
+    font-weight: bold;
+}
+#project h4{
+    color: #f5af35;
+    font-size: 21px;
+}
+#project img{
+    border-radius: 20px;
+    width: 94%;
+}
+#project img:hover{
+    opacity: 50%;
+    transition: 0.4s;
+    cursor: pointer;
+}
+/* Projects end */
+
+/* Contact */
+#contact{
+    margin-top: 40px;
+}
+#contact #main-icon{
+    color: #f5af35;
+    padding: 20px 22px;
+    border-radius: 50%;
+    background-color: #f5af353f;
+}
+#contact #social-icons{
+    margin: 0 6px;
+    color: #82909c;
+    border: 1px solid rgb(216, 216, 216);
+    border-radius: 50%;
+    padding: 14px 16px;
+}
+#contact #social-icons:hover{
+    background-color: #f5af35;
+    color: white;
+    transition: 0.4s;
+    border: 1px solid #f5af35;
+}
+#my-feild{
+    padding-bottom: 15px;
+}
+#my-feild input{
+    width: 46%;
+    height: 40px;
+}
+#email-box{
+    margin: 20px 0;
+    padding: 15px 0 0 0 ;
+    text-align: center;
+}
+#email-box input:focus{
+    border: 2px solid #f5af35;
+    outline: none;
+}
+#email-box textarea:focus{
+    border: 2px solid #f5af35;
+    outline: none;
+}
+#email-box #subject{
+    margin-top: 10px;
+    width: 93%;
+}
+#email-box #msg{
+    width: 93%;
+    margin-top: 10px;
+}
+#msg-btn{
+    border: none;
+    color: white;
+    background-color: #fcb842;
+    padding: 8px 20px;
+    border-radius: 5px;
+}
+#msg-btn:hover{
+    background-color: #ffd285;
+    transition: 0.4s;
+}
+#social-box{
+    margin-bottom: 10px;
+    background-color: white;
+    padding: 20px;
+}
+#contact-container{
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+}
+#contact-box{
+    background-color: white;
+    width: 49.1%;
+    justify-content: space-between;
+    padding-top: 25px; 
+    padding-bottom: 15px;
+}
+#contact-row h4{
+    padding: 10px 0;
+}
+/* contact end */
+
+/* footer */
+footer{
+    background-image: linear-gradient(rgba(0,0,0,0.5),rgba(0,0,0,0.5)),url(images/footer.jpg);
+    background-size: 100% 100%;
+    height: 60vh;
+}
+
+#social-icons2{
+    margin: 0 6px;
+    color: white;
+    background-color: goldenrod;
+    border-radius: 50%;
+    padding: 14px 16px;
+}
+#social-icons2:hover{
+    background-color: rgba(218, 165, 32, 0.726);
+    color: white;
+    transition: 0.4s;
+}
+/* footer end */
+
+@media (min-device-width:481px) and (max-width:768px){
+
+    #about-section{
+        width: 100%;
+    }
+    #email-section{
+        margin-top: 40px;
+    }
+}
+@media (min-device-width:768px) and (max-width:990px){
+    #email-section{
+        margin-top: 40px;
+    }
+}
+
+@media (min-device-width:768px) and (max-width:1258px){
+    #about-section{
+        width: 100%;
+    }
+}
+
